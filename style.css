@@ -45,11 +45,11 @@
   justify-content: space-around;
   align-items: center;
   margin: 0px 50px;
-  padding: 0px 130px;
+  padding: 0px 140px;
 }
 
 .header div {
-  margin: 50px 50px;
+  margin: 40px 40px;
 }
 
 .header-text h1 {
@@ -83,29 +83,58 @@
 
 .card {
   width: 360px;
-  height: 376px;
-  background-color: rgba(79, 157, 166, 0.1);
+  height: 340 px;
   border-radius: 26px;
   padding: 30px;
-  margin: auto 24px
+  margin: auto 24px;
+}
+
+.mission-card {
+  background-color: #4f9da61a;
+}
+.vision-card {
+  background-color: #ffeeee;
+}
+.goal-card {
+  background-color: #fff4d6;
 }
 
 .card img {
-    width: 126px;
-    height: 126px;
+  width: 126px;
+  height: 126px;
 }
 
+.card h2 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 .mission {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #mission-heading {
-    text-align: center;
-    font-weight: 700;
-    line-height: 70px;
-    font-size: 48px;
-    margin-bottom: 48px;
-    margin-top: 100px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 48px;
+  margin-bottom: 48px;
+  margin-top: 100px;
+}
+
+.headline {
+  border-left: 5px solid #ff5959;
+  border-image-slice: 1;
+  border-radius: 3px;
+}
+
+.headline h1 {
+  margin: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
