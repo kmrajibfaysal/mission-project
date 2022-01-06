@@ -145,27 +145,21 @@
   border-radius: 26px;
 }
 
-.doc-image {
-  width: 40%;
-  
-}
-
-.doc-text {
-  width: 60%;
-}
 .doc {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  margin: 90px 270px;
+  margin: 70px 50px;
+  padding: 0px 140px;
+}
+
+.doc div {
+  width: 40%;
 }
 
 .doc-text p {
-  width: 60%;
+  width: 90%;
   margin: 20px 0;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .doc-text h1 {
@@ -177,8 +171,4 @@
 .doc-btn {
   width: 243px;
   height: 48px;
-}
-
-#board-img {
-  padding-right: 40px;
 }
